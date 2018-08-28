@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LabelDetector</string>
+
+    <string name="apiKey">apiKey</string>
+    <string name="clientID">clientID</string>
+    <string name="databaseURL">databaseURL</string>
+    <string name="storageBucket">storageBucket</string>
+    <string name="firebaseSignIn">Firebase Sign In</string>
+
+
+
+</resources>

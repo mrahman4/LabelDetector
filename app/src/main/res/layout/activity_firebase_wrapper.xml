@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseWrapperActivity" -->
+
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FirebaseWrapperActivity">
+
+    <LinearLayout
+        android:id="@+id/stat_1_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:isScrollContainer="false"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:maxLines="3"/>
+
+        <ListView
+            android:id="@+id/labels_list"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
